@@ -1,4 +1,6 @@
 #!/bin/bash
+#Thomas McLaughlin
+
 
 #remove exited containers:
 docker ps --filter status=dead --filter status=exited -aq | xargs -r docker rm -v
